@@ -33,7 +33,7 @@ What did you change in `app.py`?
 The text outputted when an answer is incorrect.
 
 Why did no test need to change? 
-The test isnt looking for the text itself, only that the code corresponding to the process itself is working (eg. the status)
+The test isnt looking for the print statement itself, only that the code corresponding to the process itself is working accordingly.
 
 ## Part 4. The rule in the real library [S2]
 
