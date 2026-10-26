@@ -9,4 +9,7 @@ class MemoryBank:
     def add_problem(self, problem_id):
         # TODO: refuse the 11th problem. Raise SetFull. Change nothing else.
         if problem_id not in self.members:
-            self.members.append(problem_id)
+                # Refuse the 11th problem.
+                if len(self.members) >= 10:
+                     raise SetFull
+                self.members.append(problem_id)
